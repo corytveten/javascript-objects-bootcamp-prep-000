@@ -6,7 +6,7 @@ var meals = {breakfast: "oatmeal"};
 
 var playlist = {kenny loggins: "Heart to Heart"};
 
-function updatePlaylist(obj, key, value) {
-  obj[key] = value
-  return obj
+function updatePlaylist(playlist, artist, song) {
+  playlist[artist] = song
+  return playlist
 }
